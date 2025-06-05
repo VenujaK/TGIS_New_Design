@@ -1,69 +1,118 @@
 <!-- TGIS Aircraft Lifecycle Interactive Diagram Section -->
 <div class="tgis-lifecycle-container">
 
-    <!-- Desktop Circular Diagram (hidden on mobile) -->
-    <div class="tgis-lifecycle-diagram-wrapper">
-        <div class="tgis-center-label">
-            CAMO, Aircraft & Engine<br>Management Services
+    <!-- Desktop Circular Diagram Container (hidden on mobile) -->
+    <div class="tgis-desktop-circles-container">
+
+        <!-- Circle Page 0 (Initially Visible) -->
+        <div class="tgis-lifecycle-diagram-wrapper tgis-circle-page-0">
+            <div class="tgis-center-label">
+                CAMO, Aircraft & Engine<br>Management Services
+            </div>
+            <div class="tgis-circle-path"></div>
+
+            <!-- Diagram Segments/Steps - Page 0 (1-10) -->
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-1" data-angle="0">
+                <span class="tgis-segment-icon">✈️</span>
+                <span class="tgis-segment-title">Overview</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-2" data-angle="36">
+                <span class="tgis-segment-icon">📝</span>
+                <span class="tgis-segment-title">Redelivery Planning</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-3" data-angle="72">
+                <span class="tgis-segment-icon">🛠️</span>
+                <span class="tgis-segment-title">Maintenance Management</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-4" data-angle="108">
+                <span class="tgis-segment-icon">✅</span>
+                <span class="tgis-segment-title">Airworthiness Compliance</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-5" data-angle="144">
+                <span class="tgis-segment-icon">🔍</span>
+                <span class="tgis-segment-title">Audits & Acceptance</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-6" data-angle="180">
+                <span class="tgis-segment-icon">📊</span>
+                <span class="tgis-segment-title">Data Analytics</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-7" data-angle="216">
+                <span class="tgis-segment-icon">⚙️</span>
+                <span class="tgis-segment-title">Engine Management</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-8" data-angle="252">
+                <span class="tgis-segment-icon">💡</span>
+                <span class="tgis-segment-title">Consulting</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-9" data-angle="288">
+                <span class="tgis-segment-icon">🔐</span>
+                <span class="tgis-segment-title">Security & Safety</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-10" data-angle="324">
+                <span class="tgis-segment-icon">🌐</span>
+                <span class="tgis-segment-title">Global Reach</span>
+            </button>
         </div>
-        <div class="tgis-circle-path"></div> <!-- Visual circle path -->
 
-        <!-- Diagram Segments/Steps -->
-        <!-- Each segment uses `data-angle` for positioning in CSS for a circular layout -->
-        <button class="tgis-segment-button tgis-segment-active" data-content-id="lifecycle-content-1" data-angle="0">
-            <span class="tgis-segment-icon">✈️</span>
-            <span class="tgis-segment-title">Overview</span>
-        </button>
+        <!-- Circle Page 1 (Initially Hidden) -->
+        <div class="tgis-lifecycle-diagram-wrapper tgis-circle-page-1">
+            <div class="tgis-center-label">
+                CAMO, Aircraft & Engine<br>Management Services
+            </div>
+            <div class="tgis-circle-path"></div>
 
-        <button class="tgis-segment-button" data-content-id="lifecycle-content-2" data-angle="36">
-            <span class="tgis-segment-icon">📝</span>
-            <span class="tgis-segment-title">Redelivery Planning</span>
-        </button>
+            <!-- Diagram Segments/Steps - Page 1 (11-20) -->
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-11" data-angle="0">
+                <span class="tgis-segment-icon">⭐</span>
+                <span class="tgis-segment-title">Asset Valuation</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-12" data-angle="36">
+                <span class="tgis-segment-icon">📜</span>
+                <span class="tgis-segment-title">Records Management</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-13" data-angle="72">
+                <span class="tgis-segment-icon">✈️</span>
+                <span class="tgis-segment-title">Fleet Optimization</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-14" data-angle="108">
+                <span class="tgis-segment-icon">🏗️</span>
+                <span class="tgis-segment-title">Engine Leasing</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-15" data-angle="144">
+                <span class="tgis-segment-icon">📈</span>
+                <span class="tgis-segment-title">Market Analysis</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-16" data-angle="180">
+                <span class="tgis-segment-icon">🤝</span>
+                <span class="tgis-segment-title">Vendor Liaison</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-17" data-angle="216">
+                <span class="tgis-segment-icon">✈️</span>
+                <span class="tgis-segment-title">Compliance Audits</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-18" data-angle="252">
+                <span class="tgis-segment-icon">📚</span>
+                <span class="tgis-segment-title">Training & Support</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-19" data-angle="288">
+                <span class="tgis-segment-icon">💰</span>
+                <span class="tgis-segment-title">Cost Management</span>
+            </button>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-20" data-angle="324">
+                <span class="tgis-segment-icon">♻️</span>
+                <span class="tgis-segment-title">Sustainability</span>
+            </button>
+        </div>
 
-        <button class="tgis-segment-button" data-content-id="lifecycle-content-3" data-angle="72">
-            <span class="tgis-segment-icon">🛠️</span>
-            <span class="tgis-segment-title">Maintenance Management</span>
-        </button>
-
-        <button class="tgis-segment-button" data-content-id="lifecycle-content-4" data-angle="108">
-            <span class="tgis-segment-icon">✅</span>
-            <span class="tgis-segment-title">Airworthiness Compliance</span>
-        </button>
-
-        <button class="tgis-segment-button" data-content-id="lifecycle-content-5" data-angle="144">
-            <span class="tgis-segment-icon">🔍</span>
-            <span class="tgis-segment-title">Audits & Acceptance</span>
-        </button>
-
-        <button class="tgis-segment-button" data-content-id="lifecycle-content-6" data-angle="180">
-            <span class="tgis-segment-icon">📊</span>
-            <span class="tgis-segment-title">Data Analytics</span>
-        </button>
-
-        <button class="tgis-segment-button" data-content-id="lifecycle-content-7" data-angle="216">
-            <span class="tgis-segment-icon">⚙️</span>
-            <span class="tgis-segment-title">Engine Management</span>
-        </button>
-
-        <button class="tgis-segment-button" data-content-id="lifecycle-content-8" data-angle="252">
-            <span class="tgis-segment-icon">💡</span>
-            <span class="tgis-segment-title">Consulting</span>
-        </button>
-
-        <button class="tgis-segment-button" data-content-id="lifecycle-content-9" data-angle="288">
-            <span class="tgis-segment-icon">🔐</span>
-            <span class="tgis-segment-title">Security & Safety</span>
-        </button>
-
-        <button class="tgis-segment-button" data-content-id="lifecycle-content-10" data-angle="324">
-            <span class="tgis-segment-icon">🌐</span>
-            <span class="tgis-segment-title">Global Reach</span>
-        </button>
-
-        <!-- Content Display Area for Desktop -->
+        <!-- Content Display Area for Desktop (shared) -->
         <div class="tgis-segment-content-display">
             <!-- Content will be loaded here dynamically -->
         </div>
+    </div>
+
+    <!-- Creative Button for Desktop (hidden on mobile) -->
+    <div class="tgis-page-toggle-wrapper">
+        <button id="tgis-toggle-pages-button" class="tgis-creative-button">Show Next 10 Services</button>
     </div>
 
     <!-- Mobile Carousel and Content Area (hidden on desktop) -->
@@ -79,13 +128,23 @@
             <button class="tgis-carousel-button" data-content-id="lifecycle-content-8">Consulting</button>
             <button class="tgis-carousel-button" data-content-id="lifecycle-content-9">Security & Safety</button>
             <button class="tgis-carousel-button" data-content-id="lifecycle-content-10">Global Reach</button>
+            <button class="tgis-carousel-button" data-content-id="lifecycle-content-11">Asset Valuation</button>
+            <button class="tgis-carousel-button" data-content-id="lifecycle-content-12">Records Management</button>
+            <button class="tgis-carousel-button" data-content-id="lifecycle-content-13">Fleet Optimization</button>
+            <button class="tgis-carousel-button" data-content-id="lifecycle-content-14">Engine Leasing</button>
+            <button class="tgis-carousel-button" data-content-id="lifecycle-content-15">Market Analysis</button>
+            <button class="tgis-carousel-button" data-content-id="lifecycle-content-16">Vendor Liaison</button>
+            <button class="tgis-carousel-button" data-content-id="lifecycle-content-17">Compliance Audits</button>
+            <button class="tgis-carousel-button" data-content-id="lifecycle-content-18">Training & Support</button>
+            <button class="tgis-carousel-button" data-content-id="lifecycle-content-19">Cost Management</button>
+            <button class="tgis-carousel-button" data-content-id="lifecycle-content-20">Sustainability</button>
         </div>
         <div class="tgis-carousel-content-display">
             <!-- Content will be loaded here dynamically for mobile -->
         </div>
     </div>
 
-    <!-- Hidden Content Source for Desktop Display -->
+    <!-- Hidden Content Source for all displays -->
     <div id="tgis-lifecycle-hidden-content" style="display: none;">
         <div id="lifecycle-content-1">
             <h4>Overview of Aircraft Lifecycle</h4>
@@ -187,6 +246,106 @@
                 <li>Global partner network access</li>
             </ul>
         </div>
+        <div id="lifecycle-content-11">
+            <h4>Aircraft Asset Valuation</h4>
+            <p>Accurate valuation of aircraft assets is crucial for informed financial decisions. Our services provide expert appraisal, market trend analysis, and residual value forecasting to support your acquisition and divestment strategies.</p>
+            <p>Get a clear picture of your asset's worth with our comprehensive and reliable valuation reports.</p>
+            <ul class="tgis-content-list">
+                <li>Aircraft and engine appraisal</li>
+                <li>Market trend analysis</li>
+                <li>Residual value forecasting</li>
+            </ul>
+        </div>
+        <div id="lifecycle-content-12">
+            <h4>Technical Records Management</h4>
+            <p>Meticulous management of aircraft technical records is essential for compliance and operational efficiency. We offer digital records management solutions, auditing, and preparation for transitions (lease returns, sales).</p>
+            <p>Ensure your documentation is always audit-ready and easily accessible, reducing administrative burden.</p>
+            <ul class="tgis-content-list">
+                <li>Digital records archiving</li>
+                <li>Records audit and compliance</li>
+                <li>Document preparation for transitions</li>
+            </ul>
+        </div>
+        <div id="lifecycle-content-13">
+            <h4>Fleet Optimization Strategies</h4>
+            <p>Maximize the efficiency and profitability of your aircraft fleet through strategic optimization. Our services include route analysis, capacity planning, and aircraft type selection to align with market demand.</p>
+            <p>Develop a robust fleet strategy that minimizes costs and maximizes operational output.</p>
+            <ul class="tgis-content-list">
+                <li>Route efficiency analysis</li>
+                <li>Capacity planning and management</li>
+                <li>Aircraft selection and configuration</li>
+            </ul>
+        </div>
+        <div id="lifecycle-content-14">
+            <h4>Engine Leasing Solutions</h4>
+            <p>Flexible and cost-effective engine leasing solutions to support your operational needs. Whether for short-term replacements or long-term requirements, we provide access to a diverse portfolio of engines.</p>
+            <p>Ensure minimal disruption during maintenance or unexpected events with readily available engine assets.</p>
+            <ul class="tgis-content-list">
+                <li>Short-term and long-term leases</li>
+                <li>Global engine pool access</li>
+                <li>Logistics and support for engine movements</li>
+            </ul>
+        </div>
+        <div id="lifecycle-content-15">
+            <h4>Aviation Market Analysis</h4>
+            <p>Stay ahead with in-depth market analysis and intelligence. We provide insights into industry trends, competitive landscapes, and emerging opportunities, enabling strategic decision-making.</p>
+            <p>Our reports cover passenger and cargo demand, fleet forecasts, and regulatory developments affecting the global aviation market.</p>
+            <ul class="tgis-content-list">
+                <li>Industry trend forecasting</li>
+                <li>Competitive landscape analysis</li>
+                <li>Demand and supply dynamics</li>
+            </ul>
+        </div>
+        <div id="lifecycle-content-16">
+            <h4>Vendor Liaison & Management</h4>
+            <p>Streamline your operations with our expert vendor liaison and management services. We act as your intermediary with MROs, suppliers, and service providers, ensuring timely delivery and quality control.</p>
+            <p>Optimize contracts, negotiate terms, and resolve issues efficiently, freeing up your internal resources.</p>
+            <ul class="tgis-content-list">
+                <li>MRO contract negotiation</li>
+                <li>Supplier performance monitoring</li>
+                <li>Dispute resolution and advocacy</li>
+            </ul>
+        </div>
+        <div id="lifecycle-content-17">
+            <h4>Regulatory Compliance Audits</h4>
+            <p>Ensure full adherence to international and local aviation regulations with our comprehensive compliance audits. We assess your operations against EASA, FAA, and other relevant standards.</p>
+            <p>Identify potential gaps and receive actionable recommendations to maintain a robust compliance framework.</p>
+            <ul class="tgis-content-list">
+                <li>EASA, FAA, ICAO compliance checks</li>
+                <li>Operational audit and assessment</li>
+                <li>Regulatory update monitoring</li>
+            </ul>
+        </div>
+        <div id="lifecycle-content-18">
+            <h4>Customized Training & Support</h4>
+            <p>Empower your team with specialized training programs tailored to aviation management and compliance. From CAMO procedures to digital record-keeping, we enhance your team's expertise.</p>
+            <p>Our ongoing support ensures smooth implementation of best practices and continuous professional development.</p>
+            <ul class="tgis-content-list">
+                <li>CAMO and airworthiness training</li>
+                <li>Digital records system training</li>
+                <li>Continuous professional development</li>
+            </ul>
+        </div>
+        <div id="lifecycle-content-19">
+            <h4>Operational Cost Management</h4>
+            <p>Optimize your operational expenditures with our comprehensive cost management strategies. We analyze maintenance costs, fuel consumption, and operational overheads to identify areas for efficiency improvement.</p>
+            <p>Implement cost-saving measures without compromising safety or operational integrity.</p>
+            <ul class="tgis-content-list">
+                <li>Maintenance cost analysis</li>
+                <li>Fuel efficiency programs</li>
+                <li>Budgeting and financial forecasting</li>
+            </ul>
+        </div>
+        <div id="lifecycle-content-20">
+            <h4>Sustainability & Environmental Compliance</h4>
+            <p>Navigate the evolving landscape of environmental regulations and sustainability initiatives. Our services help you implement eco-friendly practices and ensure compliance with emission standards.</p>
+            <p>Achieve your sustainability goals while maintaining operational excellence and industry leadership.</p>
+            <ul class="tgis-content-list">
+                <li>Emission reduction strategies</li>
+                <li>Waste management optimization</li>
+                <li>Sustainable aviation fuel (SAF) consulting</li>
+            </ul>
+        </div>
     </div>
 
 </div>
@@ -209,15 +368,39 @@
         text-align: center;
     }
 
-    /* Desktop Circular Diagram Wrapper */
-    .tgis-lifecycle-diagram-wrapper {
-        position: relative;
+    /* Desktop Circles Container - Holds both circular diagrams */
+    .tgis-desktop-circles-container {
+        position: relative; /* Allows child circles to be absolutely positioned */
         width: 700px;
         height: 700px;
-        margin: 40px auto;
-        display: flex;
+        margin: 40px auto 0; /* Margin below the container, before the button */
+        overflow: hidden; /* Crucial for hiding parts of the circles during transition */
+    }
+
+    /* Desktop Circular Diagram Wrapper (individual circles) */
+    .tgis-lifecycle-diagram-wrapper {
+        position: absolute; /* Allows stacking in the same place */
+        top: 0;
+        left: 0;
+        width: 100%; /* Take full width of parent container */
+        height: 100%; /* Take full height of parent container */
+        display: flex; /* Centers children like center label/path */
         justify-content: center;
         align-items: center;
+        /* Only transition opacity and transform now */
+        transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+        opacity: 0; /* Hidden by default for both */
+        transform: scale(0.95); /* Slightly scaled down when inactive */
+        pointer-events: none; /* Not interactive when hidden */
+        z-index: 0; /* Default, will be managed by JS for active */
+    }
+
+    /* Active state for circular wrappers */
+    .tgis-lifecycle-diagram-wrapper.is-active-page {
+        opacity: 1;
+        transform: scale(1); /* Full size when active */
+        pointer-events: all;
+        z-index: 1; /* Bring to front when active */
     }
 
     /* Central Label */
@@ -253,8 +436,8 @@
     /* Diagram Segments (Buttons) */
     .tgis-segment-button {
         position: absolute;
-        width: 150px;
-        height: 150px;
+        width: 90px;
+        height: 90px;
         background-color: #001d2a; /* Dark Blue for inactive */
         border: 2px solid #20505e; /* Light Grey border */
         border-radius: 50%;
@@ -263,21 +446,21 @@
         justify-content: center;
         align-items: center;
         color: #e0e0e0;
-        font-size: 0.9rem;
+        font-size: 0.75rem; /* Smaller font for 10 segments */
         font-weight: 500;
         cursor: pointer;
-        transition: all 0.3s ease;
-        z-index: 2;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-        padding: 10px;
+        transition: all 0.3s ease; /* Only hover/active effects now */
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+        padding: 5px; /* Smaller padding */
         text-align: center;
+        z-index: 2; /* Always visible within its own circle */
     }
 
     .tgis-segment-button:hover {
         background-color: rgba(32, 80, 94, 0.8); /* Slightly lighter on hover */
         border-color: #b1e680; /* Green border on hover */
-        transform: scale(1.08) translateY(-5px); /* Lift and scale slightly */
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        transform: scale(1.1) translateY(-3px); /* Lift and scale slightly */
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
     }
 
     .tgis-segment-button.tgis-segment-active {
@@ -285,20 +468,21 @@
         border-color: #001d2a; /* Dark Blue border for active */
         color: #001d2a; /* Dark text for active */
         font-weight: 700;
-        transform: scale(1.15); /* More pronounced scale when active */
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+        transform: scale(1.2); /* More pronounced scale when active */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        z-index: 3; /* Active button should be highest z-index */
     }
 
     .tgis-segment-icon {
-        font-size: 2.8rem; /* Larger emoji icons */
-        margin-bottom: 5px;
+        font-size: 2rem; /* Adjusted icon size */
+        margin-bottom: 3px;
         line-height: 1;
     }
 
     .tgis-segment-title {
         display: block;
-        padding: 0 5px;
-        white-space: nowrap; /* Prevent text wrapping inside small circles */
+        padding: 0 2px;
+        white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         max-width: 100%;
@@ -373,6 +557,32 @@
         line-height: 1;
         top: 0;
         font-weight: bold;
+    }
+
+    /* Creative Button for Desktop */
+    .tgis-page-toggle-wrapper {
+        margin-top: 30px;
+        margin-bottom: 20px; /* Space below button */
+        text-align: center; /* Center the button */
+    }
+
+    .tgis-creative-button {
+        background-color: #b1e680; /* Green */
+        color: #001d2a; /* Dark Blue text */
+        border: none;
+        padding: 15px 30px;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .tgis-creative-button:hover {
+        background-color: #92c56a; /* Slightly darker green */
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     }
 
 
@@ -477,10 +687,12 @@
 
 
     /* Responsive adjustments */
-    /* Changed breakpoint from 768px to 992px */
     @media (max-width: 992px) {
-        .tgis-lifecycle-diagram-wrapper {
-            display: none; /* Hide circular diagram on mobile */
+        .tgis-desktop-circles-container {
+            display: none; /* Hide desktop circles on mobile */
+        }
+        .tgis-page-toggle-wrapper {
+            display: none; /* Hide button on mobile */
         }
         .tgis-mobile-carousel-wrapper {
             display: block; /* Show mobile carousel */
@@ -497,8 +709,11 @@
     }
 
     @media (min-width: 993px) { /* Ensure desktop styles apply above 992px */
-        .tgis-lifecycle-diagram-wrapper {
-            display: flex; /* Show circular diagram on desktop */
+        .tgis-desktop-circles-container {
+            display: block; /* Show desktop circles on desktop */
+        }
+        .tgis-page-toggle-wrapper {
+            display: block; /* Show button on desktop */
         }
         .tgis-mobile-carousel-wrapper {
             display: none; /* Hide mobile carousel on desktop */
@@ -541,67 +756,107 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const lifecycleSegments = document.querySelectorAll('.tgis-segment-button');
+        const desktopCirclesContainer = document.querySelector('.tgis-desktop-circles-container');
+        const circlePage0 = document.querySelector('.tgis-circle-page-0');
+        const circlePage1 = document.querySelector('.tgis-circle-page-1');
+        const allSegments = document.querySelectorAll('.tgis-segment-button'); // All 20 segments from both pages
         const contentDisplay = document.querySelector('.tgis-segment-content-display');
         const hiddenContentSource = document.getElementById('tgis-lifecycle-hidden-content');
+        const toggleButton = document.getElementById('tgis-toggle-pages-button');
 
         const mobileCarouselButtons = document.querySelectorAll('.tgis-carousel-button');
         const mobileCarouselContentDisplay = document.querySelector('.tgis-carousel-content-display');
 
+        let currentPage = 0; // 0 for the first circle (tabs 1-10), 1 for the second circle (tabs 11-20)
+        
+        // Function to position circular segments within their respective wrappers
+        function positionSegments(segmentsList) {
+            segmentsList.forEach(wrapper => {
+                const circlePath = wrapper.querySelector('.tgis-circle-path');
+                const segments = wrapper.querySelectorAll('.tgis-segment-button');
+                
+                if (!circlePath || segments.length === 0) return;
 
-        // Function to position circular segments (Desktop)
-        function positionSegments() {
-            const wrapper = document.querySelector('.tgis-lifecycle-diagram-wrapper');
-            if (!wrapper) return;
+                const radius = circlePath.offsetWidth / 2; // Radius of the path where buttons are placed
+                // Adjust for 10 elements in a circle (360 / 10 = 36 degrees apart)
+                const angleIncrement = 360 / segments.length; 
+                
+                // The wrapper (circlePage0 or circlePage1) itself is now the 'wrapper' for positioning
+                // so we use its dimensions to find the center offset.
+                const wrapperCenterOffset = wrapper.offsetWidth / 2; 
 
-            const radius = wrapper.offsetWidth / 2 - 75;
-            const centerOffset = wrapper.offsetWidth / 2;
+                segments.forEach((button, index) => {
+                    // Calculate angle based on its index within its own 10-segment page
+                    const angle = index * angleIncrement;
+                    // Ensure angle is adjusted to start from the top (12 o'clock)
+                    const angleRad = (angle - 90) * (Math.PI / 180);
 
-            lifecycleSegments.forEach(button => {
-                const angle = parseFloat(button.dataset.angle);
-                const angleRad = (angle - 90) * (Math.PI / 180);
+                    // Calculate button position relative to the center of its own wrapper
+                    const x = wrapperCenterOffset + radius * Math.cos(angleRad) - (button.offsetWidth / 2);
+                    const y = wrapperCenterOffset + radius * Math.sin(angleRad) - (button.offsetHeight / 2);
 
-                const x = centerOffset + radius * Math.cos(angleRad) - (button.offsetWidth / 2);
-                const y = centerOffset + radius * Math.sin(angleRad) - (button.offsetHeight / 2);
-
-                button.style.left = `${x}px`;
-                button.style.top = `${y}px`;
+                    button.style.left = `${x}px`;
+                    button.style.top = `${y}px`;
+                });
             });
         }
+
 
         // Function to load content into the desktop display area
         function loadDesktopContent(contentId) {
             const contentToLoad = hiddenContentSource.querySelector(`#${contentId}`);
             if (contentToLoad) {
-                contentDisplay.classList.remove('visible');
+                contentDisplay.classList.remove('visible'); // Start fade out
                 setTimeout(() => {
-                    contentDisplay.innerHTML = '';
+                    contentDisplay.innerHTML = ''; // Clear existing content
                     contentDisplay.appendChild(contentToLoad.cloneNode(true));
-                    contentDisplay.classList.add('visible');
-                }, 300);
+                    contentDisplay.classList.add('visible'); // Start fade in
+                }, 300); // Wait for fade out to complete before new content fades in
             }
         }
 
         // Function to hide desktop content display and deactivate segments
         function hideDesktopContentDisplay() {
-            contentDisplay.classList.remove('visible');
-            contentDisplay.innerHTML = '';
-            lifecycleSegments.forEach(s => s.classList.remove('tgis-segment-active'));
+            contentDisplay.classList.remove('visible'); // Fade out content
+            contentDisplay.innerHTML = ''; // Clear content after fade out
+            allSegments.forEach(s => s.classList.remove('tgis-segment-active')); // Deactivate all segments
         }
 
-        // Handle desktop circular segment clicks
-        lifecycleSegments.forEach(segment => {
-            segment.addEventListener('click', (event) => {
-                event.stopPropagation();
-                const wasActive = segment.classList.contains('tgis-segment-active');
-                lifecycleSegments.forEach(s => s.classList.remove('tgis-segment-active'));
+        // Function to transition between circular pages with fade and scale effect
+        function transitionCircles() {
+            hideDesktopContentDisplay(); // Hide content during page transition
 
-                if (!wasActive) {
-                    segment.classList.add('tgis-segment-active');
-                    const contentId = segment.dataset.contentId;
-                    loadDesktopContent(contentId);
-                } else {
+            if (currentPage === 0) {
+                // Show page 0, hide page 1
+                circlePage0.classList.add('is-active-page');
+                circlePage1.classList.remove('is-active-page');
+                toggleButton.textContent = 'Show Next 10 Services';
+            } else {
+                // Show page 1, hide page 0
+                circlePage1.classList.add('is-active-page');
+                circlePage0.classList.remove('is-active-page');
+                toggleButton.textContent = 'Show Previous 10 Services';
+            }
+        }
+
+
+        // Handle desktop circular segment clicks
+        allSegments.forEach(segment => {
+            segment.addEventListener('click', (event) => {
+                event.stopPropagation(); // Prevent event from bubbling up to the document click listener
+                const wasActive = segment.classList.contains('tgis-segment-active');
+
+                // If the clicked segment is already active, hide content and deactivate it
+                if (wasActive) {
                     hideDesktopContentDisplay();
+                } else {
+                    // Deactivate all other segments first
+                    allSegments.forEach(s => s.classList.remove('tgis-segment-active'));
+                    // Activate the clicked segment
+                    segment.classList.add('tgis-segment-active');
+                    // Load corresponding content
+                    const contentId = segment.dataset.contentId; // Corrected data attribute name
+                    loadDesktopContent(contentId);
                 }
             });
         });
@@ -609,65 +864,75 @@
         // Add a global click listener to hide desktop content when clicking outside
         document.addEventListener('click', (event) => {
             if (window.innerWidth > 992) { // Only apply this logic for desktop view
-                const clickedInsideDiagram = document.querySelector('.tgis-lifecycle-diagram-wrapper').contains(event.target);
-                if (!clickedInsideDiagram) {
+                const clickedInsideCirclesContainer = desktopCirclesContainer.contains(event.target);
+                const clickedOnContentDisplay = contentDisplay.contains(event.target);
+                const clickedOnToggleButton = toggleButton.contains(event.target);
+
+                // If click is outside the main diagram wrapper, outside the content display, AND outside the toggle button
+                if (!clickedInsideCirclesContainer && !clickedOnContentDisplay && !clickedOnToggleButton) {
                     hideDesktopContentDisplay();
                 }
             }
         });
 
+        // Toggle button click handler
+        if (toggleButton) {
+            toggleButton.addEventListener('click', () => {
+                currentPage = (currentPage + 1) % 2; // Toggle between 0 and 1
+                transitionCircles(); // Call transition function
+            });
+        }
 
-        // Function to load content into the mobile carousel display area
+
+        // Mobile Carousel Logic (existing)
         function loadMobileContent(contentId) {
             const contentToLoad = hiddenContentSource.querySelector(`#${contentId}`);
             if (contentToLoad) {
                 mobileCarouselContentDisplay.classList.remove('visible'); // For transition if needed
                 setTimeout(() => {
                     mobileCarouselContentDisplay.innerHTML = '';
-                    // Clone all children and append them (h4, p, ul)
                     Array.from(contentToLoad.children).forEach(child => {
                         mobileCarouselContentDisplay.appendChild(child.cloneNode(true));
                     });
                     mobileCarouselContentDisplay.classList.add('visible');
-                }, 0); // Instant update for now, can add delay if transition added
+                }, 0);
             }
         }
 
-        // Handle mobile carousel button clicks
         mobileCarouselButtons.forEach(button => {
             button.addEventListener('click', () => {
-                // Remove active class from all carousel buttons
                 mobileCarouselButtons.forEach(btn => btn.classList.remove('tgis-carousel-active'));
-                // Add active class to the clicked button
                 button.classList.add('tgis-carousel-active');
-
-                // Load corresponding content for mobile
                 const contentId = button.dataset.contentId;
                 loadMobileContent(contentId);
             });
         });
 
-        // Handle responsive display changes
+
+        // Responsive display handler
         function handleResponsiveDisplay() {
             if (window.innerWidth <= 992) { // Mobile layout breakpoint
-                // Mobile layout: Hide circular diagram, show carousel
-                document.querySelector('.tgis-lifecycle-diagram-wrapper').style.display = 'none';
+                desktopCirclesContainer.style.display = 'none';
+                toggleButton.style.display = 'none'; // Hide button on mobile
                 document.querySelector('.tgis-mobile-carousel-wrapper').style.display = 'block';
 
-                // Initialize mobile carousel: activate first button and load its content
                 if (mobileCarouselButtons.length > 0) {
                     mobileCarouselButtons.forEach(btn => btn.classList.remove('tgis-carousel-active'));
                     mobileCarouselButtons[0].classList.add('tgis-carousel-active');
                     loadMobileContent(mobileCarouselButtons[0].dataset.contentId);
                 }
             } else { // Desktop layout breakpoint
-                // Desktop layout: Show circular diagram, hide carousel
-                document.querySelector('.tgis-lifecycle-diagram-wrapper').style.display = 'flex';
+                desktopCirclesContainer.style.display = 'block'; // Block display for parent container
+                toggleButton.style.display = 'block'; // Show button on desktop
                 document.querySelector('.tgis-mobile-carousel-wrapper').style.display = 'none';
-                positionSegments(); // Position segments on desktop
-
-                // Ensure desktop content display is hidden and clear content on desktop load
-                hideDesktopContentDisplay();
+                
+                // Position segments for both circles
+                positionSegments([circlePage0, circlePage1]);
+                
+                // Initialize to page 0 visibility
+                currentPage = 0; // Reset to first page
+                transitionCircles(); // Apply initial visibility
+                hideDesktopContentDisplay(); // Ensure content is hidden on desktop load
             }
         }
 
