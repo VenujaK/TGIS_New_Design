@@ -447,6 +447,9 @@
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         line-height: 1.4;
         padding: 20px;
+        /* Add transform for counter-rotation */
+        transform: rotate(0deg); /* Initial state */
+        transition: transform 0.1s linear; /* Smooth transition for counter-rotation */
     }
 
     /* Visual Circular Path/Ring */
@@ -767,6 +770,7 @@
     document.addEventListener('DOMContentLoaded', function() {
         const dialContainer = document.querySelector('.tgis-dial-container'); // New parent for dragging
         const diagramWrapper = document.querySelector('.tgis-lifecycle-diagram-wrapper');
+        const centerLabel = document.querySelector('.tgis-center-label'); // Get the center label
         const allSegments = diagramWrapper.querySelectorAll('.tgis-segment-button'); // All 20 segments
         const contentDisplay = document.querySelector('.tgis-segment-content-display');
         const hiddenContentSource = document.getElementById('tgis-lifecycle-hidden-content');
@@ -879,6 +883,11 @@
                 }
             });
 
+            // Counter-rotate the central label
+            if (centerLabel) {
+                centerLabel.style.transform = `rotate(-${currentRotation}deg)`;
+            }
+
             e.preventDefault(); // Prevent default text selection during drag
         });
         document.addEventListener('touchmove', (e) => {
@@ -894,6 +903,11 @@
                     content.style.transform = `rotate(-${currentRotation}deg)`;
                 }
             });
+
+            // Counter-rotate the central label
+            if (centerLabel) {
+                centerLabel.style.transform = `rotate(-${currentRotation}deg)`;
+            }
             
             e.preventDefault(); // Prevent default scrolling/zooming
         }, { passive: false }); // Use passive: false to allow preventDefault
