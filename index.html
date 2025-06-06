@@ -1,106 +1,136 @@
 <!-- TGIS Aircraft Lifecycle Interactive Diagram Section -->
 <div class="tgis-lifecycle-container">
 
-    <!-- Desktop Circular Diagram Container (hidden on mobile) -->
-    <div class="tgis-desktop-circles-container">
+    <!-- Desktop Dial Container (hidden on mobile) -->
+    <div class="tgis-dial-container">
 
-        <!-- Circle Page 0 (Initially Visible) -->
-        <div class="tgis-lifecycle-diagram-wrapper tgis-circle-page-0">
+        <!-- Single Circle Wrapper for all 20 tabs - This is what rotates -->
+        <div class="tgis-lifecycle-diagram-wrapper">
             <div class="tgis-center-label">
                 CAMO, Aircraft & Engine<br>Management Services
             </div>
             <div class="tgis-circle-path"></div>
 
-            <!-- Diagram Segments/Steps - Page 0 (1-10) -->
+            <!-- Diagram Segments/Steps (All 20 tabs) -->
             <button class="tgis-segment-button" data-content-id="lifecycle-content-1" data-angle="0">
-                <span class="tgis-segment-icon">✈️</span>
-                <span class="tgis-segment-title">Overview</span>
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">✈️</span>
+                    <span class="tgis-segment-title">Overview</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-2" data-angle="36">
-                <span class="tgis-segment-icon">📝</span>
-                <span class="tgis-segment-title">Redelivery Planning</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-2" data-angle="18">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">📝</span>
+                    <span class="tgis-segment-title">Redelivery Planning</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-3" data-angle="72">
-                <span class="tgis-segment-icon">🛠️</span>
-                <span class="tgis-segment-title">Maintenance Management</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-3" data-angle="36">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">🛠️</span>
+                    <span class="tgis-segment-title">Maintenance Management</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-4" data-angle="108">
-                <span class="tgis-segment-icon">✅</span>
-                <span class="tgis-segment-title">Airworthiness Compliance</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-4" data-angle="54">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">✅</span>
+                    <span class="tgis-segment-title">Airworthiness Compliance</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-5" data-angle="144">
-                <span class="tgis-segment-icon">🔍</span>
-                <span class="tgis-segment-title">Audits & Acceptance</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-5" data-angle="72">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">🔍</span>
+                    <span class="tgis-segment-title">Audits & Acceptance</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-6" data-angle="180">
-                <span class="tgis-segment-icon">📊</span>
-                <span class="tgis-segment-title">Data Analytics</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-6" data-angle="90">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">📊</span>
+                    <span class="tgis-segment-title">Data Analytics</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-7" data-angle="216">
-                <span class="tgis-segment-icon">⚙️</span>
-                <span class="tgis-segment-title">Engine Management</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-7" data-angle="108">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">⚙️</span>
+                    <span class="tgis-segment-title">Engine Management</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-8" data-angle="252">
-                <span class="tgis-segment-icon">💡</span>
-                <span class="tgis-segment-title">Consulting</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-8" data-angle="126">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">💡</span>
+                    <span class="tgis-segment-title">Consulting</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-9" data-angle="288">
-                <span class="tgis-segment-icon">🔐</span>
-                <span class="tgis-segment-title">Security & Safety</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-9" data-angle="144">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">🔐</span>
+                    <span class="tgis-segment-title">Security & Safety</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-10" data-angle="324">
-                <span class="tgis-segment-icon">🌐</span>
-                <span class="tgis-segment-title">Global Reach</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-10" data-angle="162">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">🌐</span>
+                    <span class="tgis-segment-title">Global Reach</span>
+                </div>
             </button>
-        </div>
-
-        <!-- Circle Page 1 (Initially Hidden) -->
-        <div class="tgis-lifecycle-diagram-wrapper tgis-circle-page-1">
-            <div class="tgis-center-label">
-                CAMO, Aircraft & Engine<br>Management Services
-            </div>
-            <div class="tgis-circle-path"></div>
-
-            <!-- Diagram Segments/Steps - Page 1 (11-20) -->
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-11" data-angle="0">
-                <span class="tgis-segment-icon">⭐</span>
-                <span class="tgis-segment-title">Asset Valuation</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-11" data-angle="180">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">⭐</span>
+                    <span class="tgis-segment-title">Asset Valuation</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-12" data-angle="36">
-                <span class="tgis-segment-icon">📜</span>
-                <span class="tgis-segment-title">Records Management</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-12" data-angle="198">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">📜</span>
+                    <span class="tgis-segment-title">Records Management</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-13" data-angle="72">
-                <span class="tgis-segment-icon">✈️</span>
-                <span class="tgis-segment-title">Fleet Optimization</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-13" data-angle="216">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">✈️</span>
+                    <span class="tgis-segment-title">Fleet Optimization</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-14" data-angle="108">
-                <span class="tgis-segment-icon">🏗️</span>
-                <span class="tgis-segment-title">Engine Leasing</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-14" data-angle="234">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">🏗️</span>
+                    <span class="tgis-segment-title">Engine Leasing</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-15" data-angle="144">
-                <span class="tgis-segment-icon">📈</span>
-                <span class="tgis-segment-title">Market Analysis</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-15" data-angle="252">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">📈</span>
+                    <span class="tgis-segment-title">Market Analysis</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-16" data-angle="180">
-                <span class="tgis-segment-icon">🤝</span>
-                <span class="tgis-segment-title">Vendor Liaison</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-16" data-angle="270">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">🤝</span>
+                    <span class="tgis-segment-title">Vendor Liaison</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-17" data-angle="216">
-                <span class="tgis-segment-icon">✈️</span>
-                <span class="tgis-segment-title">Compliance Audits</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-17" data-angle="288">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">✈️</span>
+                    <span class="tgis-segment-title">Compliance Audits</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-18" data-angle="252">
-                <span class="tgis-segment-icon">📚</span>
-                <span class="tgis-segment-title">Training & Support</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-18" data-angle="306">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">📚</span>
+                    <span class="tgis-segment-title">Training & Support</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-19" data-angle="288">
-                <span class="tgis-segment-icon">💰</span>
-                <span class="tgis-segment-title">Cost Management</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-19" data-angle="324">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">💰</span>
+                    <span class="tgis-segment-title">Cost Management</span>
+                </div>
             </button>
-            <button class="tgis-segment-button" data-content-id="lifecycle-content-20" data-angle="324">
-                <span class="tgis-segment-icon">♻️</span>
-                <span class="tgis-segment-title">Sustainability</span>
+            <button class="tgis-segment-button" data-content-id="lifecycle-content-20" data-angle="342">
+                <div class="tgis-segment-content">
+                    <span class="tgis-segment-icon">♻️</span>
+                    <span class="tgis-segment-title">Sustainability</span>
+                </div>
             </button>
         </div>
 
@@ -108,11 +138,6 @@
         <div class="tgis-segment-content-display">
             <!-- Content will be loaded here dynamically -->
         </div>
-    </div>
-
-    <!-- Creative Button for Desktop (hidden on mobile) -->
-    <div class="tgis-page-toggle-wrapper">
-        <button id="tgis-toggle-pages-button" class="tgis-creative-button">Show Next 10 Services</button>
     </div>
 
     <!-- Mobile Carousel and Content Area (hidden on desktop) -->
@@ -290,9 +315,10 @@
             <h4>Aviation Market Analysis</h4>
             <p>Stay ahead with in-depth market analysis and intelligence. We provide insights into industry trends, competitive landscapes, and emerging opportunities, enabling strategic decision-making.</p>
             <p>Our reports cover passenger and cargo demand, fleet forecasts, and regulatory developments affecting the global aviation market.</p>
+            <p>Our reports cover passenger and cargo demand, fleet forecasts, and regulatory developments affecting the global aviation market.</p>
             <ul class="tgis-content-list">
                 <li>Industry trend forecasting</li>
-                <li>Competitive landscape analysis</li>
+                <li>Competitive analysis</li>
                 <li>Demand and supply dynamics</li>
             </ul>
         </div>
@@ -368,39 +394,39 @@
         text-align: center;
     }
 
-    /* Desktop Circles Container - Holds both circular diagrams */
-    .tgis-desktop-circles-container {
-        position: relative; /* Allows child circles to be absolutely positioned */
-        width: 700px;
+    /* Desktop Dial Container - Main draggable area for desktop */
+    .tgis-dial-container {
+        position: relative;
+        width: 700px; /* Needs a fixed size for mouse positioning */
         height: 700px;
-        margin: 40px auto 0; /* Margin below the container, before the button */
-        overflow: hidden; /* Crucial for hiding parts of the circles during transition */
-    }
-
-    /* Desktop Circular Diagram Wrapper (individual circles) */
-    .tgis-lifecycle-diagram-wrapper {
-        position: absolute; /* Allows stacking in the same place */
-        top: 0;
-        left: 0;
-        width: 100%; /* Take full width of parent container */
-        height: 100%; /* Take full height of parent container */
-        display: flex; /* Centers children like center label/path */
+        margin: 40px auto;
+        display: flex; /* Ensures inner content is centered */
         justify-content: center;
         align-items: center;
-        /* Only transition opacity and transform now */
-        transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
-        opacity: 0; /* Hidden by default for both */
-        transform: scale(0.95); /* Slightly scaled down when inactive */
-        pointer-events: none; /* Not interactive when hidden */
-        z-index: 0; /* Default, will be managed by JS for active */
+        cursor: grab; /* Indicates it's draggable */
+        user-select: none; /* Prevent text selection during drag */
+        -webkit-user-select: none; /* For Safari */
+        -moz-user-select: none; /* For Firefox */
+        -ms-user-select: none; /* For IE/Edge */
     }
 
-    /* Active state for circular wrappers */
-    .tgis-lifecycle-diagram-wrapper.is-active-page {
-        opacity: 1;
-        transform: scale(1); /* Full size when active */
-        pointer-events: all;
-        z-index: 1; /* Bring to front when active */
+    .tgis-dial-container:active {
+        cursor: grabbing; /* Changes cursor when actively dragging */
+    }
+
+    /* Desktop Circular Diagram Wrapper (This element will be rotated) */
+    .tgis-lifecycle-diagram-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform-origin: center center; /* Ensure rotation happens from the center */
+        transform: rotate(0deg); /* Initial state */
+        transition: transform 0.1s linear; /* Smooth transition for rotation */
     }
 
     /* Central Label */
@@ -426,18 +452,18 @@
     /* Visual Circular Path/Ring */
     .tgis-circle-path {
         position: absolute;
-        width: 600px;
-        height: 600px;
+        width: 650px; /* Increased width to provide more space for buttons */
+        height: 650px;
         border: 3px solid #20505e; /* Light Grey ring */
         border-radius: 50%;
-        z-index: 1;
+        z-index: 1; /* Below buttons, above background */
     }
 
-    /* Diagram Segments (Buttons) */
+    /* Diagram Segments (Buttons) - Adjusted for 20 elements */
     .tgis-segment-button {
         position: absolute;
-        width: 90px;
-        height: 90px;
+        width: 70px; /* Made smaller */
+        height: 70px; /* Made smaller */
         background-color: #001d2a; /* Dark Blue for inactive */
         border: 2px solid #20505e; /* Light Grey border */
         border-radius: 50%;
@@ -446,14 +472,14 @@
         justify-content: center;
         align-items: center;
         color: #e0e0e0;
-        font-size: 0.75rem; /* Smaller font for 10 segments */
+        font-size: 0.6rem; /* Smaller font for more tabs */
         font-weight: 500;
-        cursor: pointer;
-        transition: all 0.3s ease; /* Only hover/active effects now */
+        cursor: pointer; /* Cursor for individual buttons */
+        transition: all 0.3s ease;
+        z-index: 2; /* Above the circle path */
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
-        padding: 5px; /* Smaller padding */
+        padding: 2px; /* Reduced padding */
         text-align: center;
-        z-index: 2; /* Always visible within its own circle */
     }
 
     .tgis-segment-button:hover {
@@ -468,14 +494,25 @@
         border-color: #001d2a; /* Dark Blue border for active */
         color: #001d2a; /* Dark text for active */
         font-weight: 700;
-        transform: scale(1.2); /* More pronounced scale when active */
+        transform: scale(1.15); /* More pronounced scale when active */
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-        z-index: 3; /* Active button should be highest z-index */
+    }
+
+    /* New style for the inner content wrapper to counter-rotate */
+    .tgis-segment-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        transform: rotate(0deg); /* Initial state, will be updated by JS */
+        transition: transform 0.1s linear; /* Smooth counter-rotation */
     }
 
     .tgis-segment-icon {
-        font-size: 2rem; /* Adjusted icon size */
-        margin-bottom: 3px;
+        font-size: 1.7rem; /* Adjusted icon size to fit smaller button */
+        margin-bottom: 2px;
         line-height: 1;
     }
 
@@ -503,7 +540,7 @@
         justify-content: center;
         align-items: center;
         overflow-y: auto;
-        z-index: 4;
+        z-index: 4; /* Highest z-index to be on top of everything */
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) scale(0.95);
@@ -559,32 +596,10 @@
         font-weight: bold;
     }
 
-    /* Creative Button for Desktop */
-    .tgis-page-toggle-wrapper {
-        margin-top: 30px;
-        margin-bottom: 20px; /* Space below button */
-        text-align: center; /* Center the button */
+    /* Toggle button is removed as per request */
+    .tgis-page-toggle-wrapper, .tgis-creative-button {
+        display: none;
     }
-
-    .tgis-creative-button {
-        background-color: #b1e680; /* Green */
-        color: #001d2a; /* Dark Blue text */
-        border: none;
-        padding: 15px 30px;
-        border-radius: 10px;
-        font-size: 1.1rem;
-        font-weight: 600;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    .tgis-creative-button:hover {
-        background-color: #92c56a; /* Slightly darker green */
-        transform: translateY(-3px);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    }
-
 
     /* Mobile Carousel Wrapper */
     .tgis-mobile-carousel-wrapper {
@@ -688,11 +703,8 @@
 
     /* Responsive adjustments */
     @media (max-width: 992px) {
-        .tgis-desktop-circles-container {
+        .tgis-dial-container { /* Renamed from desktop-circles-container */
             display: none; /* Hide desktop circles on mobile */
-        }
-        .tgis-page-toggle-wrapper {
-            display: none; /* Hide button on mobile */
         }
         .tgis-mobile-carousel-wrapper {
             display: block; /* Show mobile carousel */
@@ -709,11 +721,8 @@
     }
 
     @media (min-width: 993px) { /* Ensure desktop styles apply above 992px */
-        .tgis-desktop-circles-container {
-            display: block; /* Show desktop circles on desktop */
-        }
-        .tgis-page-toggle-wrapper {
-            display: block; /* Show button on desktop */
+        .tgis-dial-container { /* Renamed from desktop-circles-container */
+            display: flex; /* Changed from block to flex to help center content */
         }
         .tgis-mobile-carousel-wrapper {
             display: none; /* Hide mobile carousel on desktop */
@@ -721,83 +730,81 @@
     }
 
     @media (max-width: 1024px) and (min-width: 993px) { /* Adjust for slightly smaller desktops but still desktop view */
-        .tgis-lifecycle-diagram-wrapper {
-            width: 600px;
+        .tgis-dial-container, .tgis-lifecycle-diagram-wrapper {
+            width: 600px; /* Adjusted container sizes */
             height: 600px;
         }
         .tgis-circle-path {
-            width: 500px;
-            height: 500px;
+            width: 550px; /* Adjusted for smaller desktop screens */
+            height: 550px;
         }
         .tgis-segment-button {
-            width: 130px;
-            height: 130px;
-            font-size: 0.85rem;
+            width: 65px; /* Adjusted */
+            height: 65px; /* Adjusted */
+            font-size: 0.55rem; /* Adjusted */
         }
         .tgis-segment-icon {
-            font-size: 2.4rem;
+            font-size: 1.5rem; /* Adjusted */
         }
         .tgis-segment-content-display {
-            width: 350px;
-            height: 350px;
-            padding: 25px;
+            width: 320px; /* Adjusted */
+            height: 320px; /* Adjusted */
+            padding: 20px; /* Adjusted */
         }
         .tgis-segment-content-display h4 {
-            font-size: 1.5rem;
+            font-size: 1.4rem; /* Adjusted */
         }
         .tgis-segment-content-display p {
-            font-size: 0.95rem;
+            font-size: 0.9rem; /* Adjusted */
         }
         .tgis-content-list li {
-            font-size: 0.9rem;
+            font-size: 0.85rem; /* Adjusted */
         }
     }
 </style>
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const desktopCirclesContainer = document.querySelector('.tgis-desktop-circles-container');
-        const circlePage0 = document.querySelector('.tgis-circle-page-0');
-        const circlePage1 = document.querySelector('.tgis-circle-page-1');
-        const allSegments = document.querySelectorAll('.tgis-segment-button'); // All 20 segments from both pages
+        const dialContainer = document.querySelector('.tgis-dial-container'); // New parent for dragging
+        const diagramWrapper = document.querySelector('.tgis-lifecycle-diagram-wrapper');
+        const allSegments = diagramWrapper.querySelectorAll('.tgis-segment-button'); // All 20 segments
         const contentDisplay = document.querySelector('.tgis-segment-content-display');
         const hiddenContentSource = document.getElementById('tgis-lifecycle-hidden-content');
-        const toggleButton = document.getElementById('tgis-toggle-pages-button');
 
         const mobileCarouselButtons = document.querySelectorAll('.tgis-carousel-button');
         const mobileCarouselContentDisplay = document.querySelector('.tgis-carousel-content-display');
-
-        let currentPage = 0; // 0 for the first circle (tabs 1-10), 1 for the second circle (tabs 11-20)
         
-        // Function to position circular segments within their respective wrappers
-        function positionSegments(segmentsList) {
-            segmentsList.forEach(wrapper => {
-                const circlePath = wrapper.querySelector('.tgis-circle-path');
-                const segments = wrapper.querySelectorAll('.tgis-segment-button');
-                
-                if (!circlePath || segments.length === 0) return;
+        let isDragging = false;
+        let startAngle = 0;
+        let currentRotation = 0; // Current rotation of the diagramWrapper
+        let center = { x: 0, y: 0 }; // Center of the dialContainer
 
-                const radius = circlePath.offsetWidth / 2; // Radius of the path where buttons are placed
-                // Adjust for 10 elements in a circle (360 / 10 = 36 degrees apart)
-                const angleIncrement = 360 / segments.length; 
-                
-                // The wrapper (circlePage0 or circlePage1) itself is now the 'wrapper' for positioning
-                // so we use its dimensions to find the center offset.
-                const wrapperCenterOffset = wrapper.offsetWidth / 2; 
+        // Function to position circular segments within their wrapper
+        function positionSegments(wrapper) {
+            const circlePath = wrapper.querySelector('.tgis-circle-path');
+            const segments = wrapper.querySelectorAll('.tgis-segment-button');
+            
+            if (!circlePath || segments.length === 0) return;
 
-                segments.forEach((button, index) => {
-                    // Calculate angle based on its index within its own 10-segment page
-                    const angle = index * angleIncrement;
-                    // Ensure angle is adjusted to start from the top (12 o'clock)
-                    const angleRad = (angle - 90) * (Math.PI / 180);
+            // Calculate the radius for positioning the center of buttons.
+            const pathOuterRadius = circlePath.offsetWidth / 2;
+            const buttonHalfWidth = segments[0].offsetWidth / 2;
+            const buffer = 10; // Space between button outer edge and path outer edge.
 
-                    // Calculate button position relative to the center of its own wrapper
-                    const x = wrapperCenterOffset + radius * Math.cos(angleRad) - (button.offsetWidth / 2);
-                    const y = wrapperCenterOffset + radius * Math.sin(angleRad) - (button.offsetHeight / 2);
+            const radius = pathOuterRadius - buttonHalfWidth - buffer; 
+            const wrapperCenterOffset = wrapper.offsetWidth / 2;
 
-                    button.style.left = `${x}px`;
-                    button.style.top = `${y}px`;
-                });
+            const angleIncrement = 360 / segments.length; // For 20 segments: 360 / 20 = 18 degrees
+
+            segments.forEach((button, index) => {
+                const angle = parseFloat(button.dataset.angle);
+                const angleRad = (angle - 90) * (Math.PI / 180); // Adjust for 0 at 12 o'clock
+
+                const x = wrapperCenterOffset + radius * Math.cos(angleRad) - buttonHalfWidth;
+                const y = wrapperCenterOffset + radius * Math.sin(angleRad) - buttonHalfWidth;
+
+                button.style.left = `${x}px`;
+                button.style.top = `${y}px`;
             });
         }
 
@@ -822,69 +829,136 @@
             allSegments.forEach(s => s.classList.remove('tgis-segment-active')); // Deactivate all segments
         }
 
-        // Function to transition between circular pages with fade and scale effect
-        function transitionCircles() {
-            hideDesktopContentDisplay(); // Hide content during page transition
-
-            if (currentPage === 0) {
-                // Show page 0, hide page 1
-                circlePage0.classList.add('is-active-page');
-                circlePage1.classList.remove('is-active-page');
-                toggleButton.textContent = 'Show Next 10 Services';
-            } else {
-                // Show page 1, hide page 0
-                circlePage1.classList.add('is-active-page');
-                circlePage0.classList.remove('is-active-page');
-                toggleButton.textContent = 'Show Previous 10 Services';
-            }
+        // Get the center of the dial container relative to the viewport
+        function updateCenter() {
+            const rect = dialContainer.getBoundingClientRect();
+            center.x = rect.left + rect.width / 2;
+            center.y = rect.top + rect.height / 2;
         }
 
+        // Calculate angle from center to mouse position
+        function getAngle(clientX, clientY) {
+            const dx = clientX - center.x;
+            const dy = clientY - center.y;
+            return Math.atan2(dy, dx) * (180 / Math.PI);
+        }
 
-        // Handle desktop circular segment clicks
+        // Mouse/Touch Down
+        dialContainer.addEventListener('mousedown', (e) => {
+            if (window.innerWidth > 992) { // Only enable dragging on desktop
+                isDragging = true;
+                updateCenter(); // Ensure center is updated on mousedown
+                startAngle = getAngle(e.clientX, e.clientY) - currentRotation;
+                dialContainer.style.cursor = 'grabbing';
+                // Prevent default text selection during drag on desktop
+                e.preventDefault(); 
+            }
+        });
+        dialContainer.addEventListener('touchstart', (e) => {
+            if (window.innerWidth > 992 && e.touches.length === 1) { // Only enable dragging on desktop
+                isDragging = true;
+                updateCenter();
+                startAngle = getAngle(e.touches[0].clientX, e.touches[0].clientY) - currentRotation;
+                // No cursor change for touch, but prevent default scrolling/zooming
+                e.preventDefault(); 
+            }
+        }, { passive: false }); // Use passive: false to allow preventDefault
+
+        // Mouse/Touch Move
+        document.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            const newAngle = getAngle(e.clientX, e.clientY);
+            currentRotation = newAngle - startAngle;
+            diagramWrapper.style.transform = `rotate(${currentRotation}deg)`;
+            
+            // Counter-rotate the content of each segment button
+            allSegments.forEach(segment => {
+                const content = segment.querySelector('.tgis-segment-content');
+                if (content) {
+                    content.style.transform = `rotate(-${currentRotation}deg)`;
+                }
+            });
+
+            e.preventDefault(); // Prevent default text selection during drag
+        });
+        document.addEventListener('touchmove', (e) => {
+            if (!isDragging || e.touches.length !== 1) return;
+            const newAngle = getAngle(e.touches[0].clientX, e.touches[0].clientY);
+            currentRotation = newAngle - startAngle;
+            diagramWrapper.style.transform = `rotate(${currentRotation}deg)`;
+
+            // Counter-rotate the content of each segment button
+            allSegments.forEach(segment => {
+                const content = segment.querySelector('.tgis-segment-content');
+                if (content) {
+                    content.style.transform = `rotate(-${currentRotation}deg)`;
+                }
+            });
+            
+            e.preventDefault(); // Prevent default scrolling/zooming
+        }, { passive: false }); // Use passive: false to allow preventDefault
+
+
+        // Mouse/Touch Up
+        document.addEventListener('mouseup', () => {
+            if (isDragging) {
+                isDragging = false;
+                dialContainer.style.cursor = 'grab';
+            }
+        });
+        document.addEventListener('touchend', () => {
+            if (isDragging) {
+                isDragging = false;
+            }
+        });
+
+        // Handle desktop circular segment clicks (still functional even with drag)
         allSegments.forEach(segment => {
             segment.addEventListener('click', (event) => {
-                event.stopPropagation(); // Prevent event from bubbling up to the document click listener
-                const wasActive = segment.classList.contains('tgis-segment-active');
-
-                // If the clicked segment is already active, hide content and deactivate it
-                if (wasActive) {
-                    hideDesktopContentDisplay();
+                // If dragging just occurred, prevent click event from firing on the button
+                // This is a common pattern to distinguish drag from click
+                if (isDragging) { 
+                     // A small delay to allow touchend/mouseup to set isDragging to false
+                     setTimeout(() => {
+                        if (!isDragging) { // Re-check after a tiny delay
+                             processSegmentClick(event, segment);
+                        }
+                    }, 50);
                 } else {
-                    // Deactivate all other segments first
-                    allSegments.forEach(s => s.classList.remove('tgis-segment-active'));
-                    // Activate the clicked segment
-                    segment.classList.add('tgis-segment-active');
-                    // Load corresponding content
-                    const contentId = segment.dataset.contentId; // Corrected data attribute name
-                    loadDesktopContent(contentId);
+                    processSegmentClick(event, segment);
                 }
             });
         });
+
+        function processSegmentClick(event, segment) {
+            event.stopPropagation(); // Prevent event from bubbling up to the document click listener
+            const wasActive = segment.classList.contains('tgis-segment-active');
+
+            if (wasActive) {
+                hideDesktopContentDisplay();
+            } else {
+                allSegments.forEach(s => s.classList.remove('tgis-segment-active'));
+                segment.classList.add('tgis-segment-active');
+                const contentId = segment.dataset.contentId;
+                loadDesktopContent(contentId);
+            }
+        }
+
 
         // Add a global click listener to hide desktop content when clicking outside
         document.addEventListener('click', (event) => {
             if (window.innerWidth > 992) { // Only apply this logic for desktop view
-                const clickedInsideCirclesContainer = desktopCirclesContainer.contains(event.target);
+                const clickedInsideDialContainer = dialContainer.contains(event.target);
                 const clickedOnContentDisplay = contentDisplay.contains(event.target);
-                const clickedOnToggleButton = toggleButton.contains(event.target);
-
-                // If click is outside the main diagram wrapper, outside the content display, AND outside the toggle button
-                if (!clickedInsideCirclesContainer && !clickedOnContentDisplay && !clickedOnToggleButton) {
+                
+                // If click is outside the dial container AND outside the content display
+                if (!clickedInsideDialContainer && !clickedOnContentDisplay) {
                     hideDesktopContentDisplay();
                 }
             }
         });
 
-        // Toggle button click handler
-        if (toggleButton) {
-            toggleButton.addEventListener('click', () => {
-                currentPage = (currentPage + 1) % 2; // Toggle between 0 and 1
-                transitionCircles(); // Call transition function
-            });
-        }
-
-
-        // Mobile Carousel Logic (existing)
+        // Mobile Carousel Logic
         function loadMobileContent(contentId) {
             const contentToLoad = hiddenContentSource.querySelector(`#${contentId}`);
             if (contentToLoad) {
@@ -912,9 +986,8 @@
         // Responsive display handler
         function handleResponsiveDisplay() {
             if (window.innerWidth <= 992) { // Mobile layout breakpoint
-                desktopCirclesContainer.style.display = 'none';
-                toggleButton.style.display = 'none'; // Hide button on mobile
-                document.querySelector('.tgis-mobile-carousel-wrapper').style.display = 'block';
+                dialContainer.style.display = 'none'; // Hide desktop dial
+                document.querySelector('.tgis-mobile-carousel-wrapper').style.display = 'block'; // Show mobile carousel
 
                 if (mobileCarouselButtons.length > 0) {
                     mobileCarouselButtons.forEach(btn => btn.classList.remove('tgis-carousel-active'));
@@ -922,17 +995,13 @@
                     loadMobileContent(mobileCarouselButtons[0].dataset.contentId);
                 }
             } else { // Desktop layout breakpoint
-                desktopCirclesContainer.style.display = 'block'; // Block display for parent container
-                toggleButton.style.display = 'block'; // Show button on desktop
-                document.querySelector('.tgis-mobile-carousel-wrapper').style.display = 'none';
+                dialContainer.style.display = 'flex'; // Show desktop dial
+                document.querySelector('.tgis-mobile-carousel-wrapper').style.display = 'none'; // Hide mobile carousel
                 
-                // Position segments for both circles
-                positionSegments([circlePage0, circlePage1]);
-                
-                // Initialize to page 0 visibility
-                currentPage = 0; // Reset to first page
-                transitionCircles(); // Apply initial visibility
+                // Position segments for the single desktop circle
+                positionSegments(diagramWrapper);
                 hideDesktopContentDisplay(); // Ensure content is hidden on desktop load
+                updateCenter(); // Update center position on resize and initial load
             }
         }
 
